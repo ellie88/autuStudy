@@ -1,0 +1,233 @@
+{
+  "c10829f2b69aba844fd283680600ff81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7a234ed189bbb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923176,
+        "stop" : 1611720923176,
+        "duration" : 0
+      }
+    } ]
+  },
+  "412d350b0b80c21aa9dd77169f25eb5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92da53f03e1c491d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 无条件跳过",
+      "time" : {
+        "start" : 1611720923244,
+        "stop" : 1611720923244,
+        "duration" : 0
+      }
+    } ]
+  },
+  "37027b7dd0680d1c6cbbfb97acb2b813" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82524f6cec1e6d8e",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'attach.png'",
+      "time" : {
+        "start" : 1611720923180,
+        "stop" : 1611720923180,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c919c377c850deb0fdf75d2970463555" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3ab859b11cd9bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923169,
+        "stop" : 1611720923169,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1368999bcae06653279aa2f424f01910" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5c253357afbfa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923252,
+        "stop" : 1611720923252,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d3e5ad37064f5441266a60a58d6e82df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a04dac27bc17ec1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923162,
+        "stop" : 1611720923162,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1fe8aad9e5af419902d9061eb56a7069" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3910d215b4fc5af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923154,
+        "stop" : 1611720923154,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9ddd5d361e93b192deee1aec36bd08a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "569e71867f20b5be",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'broken.json'",
+      "time" : {
+        "start" : 1611720923239,
+        "stop" : 1611720923239,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4d41a415d5aa5ba84429e3225f65c70e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c90fc79836a458d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923165,
+        "stop" : 1611720923166,
+        "duration" : 1
+      }
+    } ]
+  },
+  "442951fdad6ffb25d23102191048bdfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ad6b23d76f4a2b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923173,
+        "stop" : 1611720923173,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9b82aa1d901416bdd08570f55cc1632f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e2418a37b1c0f4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923248,
+        "stop" : 1611720923248,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c580a07436c5ed792d6b51c0db9d5092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0777c4365fdc60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611720923158,
+        "stop" : 1611720923159,
+        "duration" : 1
+      }
+    } ]
+  }
+}

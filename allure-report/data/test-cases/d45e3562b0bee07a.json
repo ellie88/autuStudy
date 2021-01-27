@@ -1,0 +1,193 @@
+{
+  "uid" : "d45e3562b0bee07a",
+  "name" : "test_with_scoped_finalizers[param_true]",
+  "fullName" : "pytest_allure.test_allure_fixture.TestClass#test_with_scoped_finalizers",
+  "historyId" : "9b82aa1d901416bdd08570f55cc1632f",
+  "time" : {
+    "start" : 1611730814436,
+    "stop" : 1611730814436,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "class_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1611730814436,
+      "stop" : 1611730814436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1611730814435,
+      "stop" : 1611730814435,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "function_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1611730814436,
+      "stop" : 1611730814436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "module_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1611730814436,
+      "stop" : 1611730814436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "class_scope_fixture_with_finalizer::class_finalizer_fixture",
+    "time" : {
+      "start" : 1611730814442,
+      "stop" : 1611730814442,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session_scope_fixture_with_finalizer::session_finalizer_fixture",
+    "time" : {
+      "start" : 1611730814444,
+      "stop" : 1611730814444,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "function_scope_fixture_with_finalizer::function_scope_finalizer",
+    "time" : {
+      "start" : 1611730814437,
+      "stop" : 1611730814437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "module_scope_fixture_with_finalizer::module_finalizer_fixture",
+    "time" : {
+      "start" : 1611730814443,
+      "stop" : 1611730814443,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "fixture场景"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_fixture"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200914AAyx"
+  }, {
+    "name" : "thread",
+    "value" : "9848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_allure.test_allure_fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "function_scope_fixture_with_finalizer",
+    "value" : "True"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "6349a3c8dcff9afc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611721010526,
+        "stop" : 1611721010526,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d45e3562b0bee07a.json",
+  "parameterValues" : [ "True" ]
+}

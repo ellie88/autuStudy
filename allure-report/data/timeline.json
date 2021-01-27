@@ -1,0 +1,329 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-20200914AAyx",
+    "children" : [ {
+      "name" : "29240-MainThread",
+      "children" : [ {
+        "name" : "test_failed",
+        "uid" : "76e657f078132b7f",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611721010494,
+          "stop" : 1611721010495,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_password_none[测试缺省密码参数用户名:linux超期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+        "uid" : "fb4b93f9c0ff0ad0",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010486,
+          "stop" : 1611721010487,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '缺省密码参数', 'user': 'linux超', 'expected': {'code': 1002, 'msg': '密码不能为空', 'data': None}}" ]
+      }, {
+        "name" : "test_broken",
+        "uid" : "b094d155c9f4927f",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611721010516,
+          "stop" : 1611721010516,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_username_none[测试缺省用户名参数密码123456期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+        "uid" : "27dc010d2019a382",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010482,
+          "stop" : 1611721010483,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '缺省用户名参数', 'pwd': '123456', 'expected': {'code': 1003, 'msg': '用户名不能为空', 'data': None}}" ]
+      }, {
+        "name" : "test_login_fail[测试用户名为空, 密码正确用户名:密码linux超哥期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+        "uid" : "12c485ed9948ea20",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010473,
+          "stop" : 1611721010473,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名为空, 密码正确', 'user': '', 'pwd': 'linux超哥', 'expected': {'code': 1003, 'msg': '用户名不能为空', 'data': None}}" ]
+      }, {
+        "name" : "登录成功场景-{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}",
+        "uid" : "15466aef5f9fa542",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010463,
+          "stop" : 1611721010463,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}" ]
+      }, {
+        "name" : "test_login_fail[测试用户名正确, 密码为空用户名:linux超密码期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+        "uid" : "b8d19eb2d6169793",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010468,
+          "stop" : 1611721010468,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名正确, 密码为空', 'user': 'linux超', 'pwd': '', 'expected': {'code': 1002, 'msg': '密码不能为空', 'data': None}}" ]
+      }, {
+        "name" : "test_with_scoped_finalizers[param_false]",
+        "uid" : "ae40422af9a52a2c",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010531,
+          "stop" : 1611721010533,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False" ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "7ad4124c0a26e927",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1611721010523,
+          "stop" : 1611721010523,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_fail[测试用户名错误, 密码错误用户名:linux密码linux期望值{'code': 1004, 'msg': '用户名或密码错误', 'data': None}]",
+        "uid" : "9896e474bb1bd014",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010477,
+          "stop" : 1611721010478,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名错误, 密码错误', 'user': 'linux', 'pwd': 'linux', 'expected': {'code': 1004, 'msg': '用户名或密码错误', 'data': None}}" ]
+      }, {
+        "name" : "test_with_scoped_finalizers[param_true]",
+        "uid" : "6349a3c8dcff9afc",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010526,
+          "stop" : 1611721010526,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True" ]
+      }, {
+        "name" : "test_init_url",
+        "uid" : "45e7aad51f69c4fd",
+        "parentUid" : "b5d7bbd3a900a77f1982d834f1669c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611721010490,
+          "stop" : 1611721010490,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5d7bbd3a900a77f1982d834f1669c60"
+    }, {
+      "name" : "9848-MainThread",
+      "children" : [ {
+        "name" : "test_with_scoped_finalizers[param_false]",
+        "uid" : "d2a67312101c40f4",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814441,
+          "stop" : 1611730814441,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False" ]
+      }, {
+        "name" : "test_password_none[测试缺省密码参数用户名:linux超期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+        "uid" : "6d1152ed6b548a12",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814398,
+          "stop" : 1611730814399,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '缺省密码参数', 'user': 'linux超', 'expected': {'code': 1002, 'msg': '密码不能为空', 'data': None}}" ]
+      }, {
+        "name" : "test_login_fail[测试用户名错误, 密码错误用户名:linux密码linux期望值{'code': 1004, 'msg': '用户名或密码错误', 'data': None}]",
+        "uid" : "df62f2e93fe29c8f",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814391,
+          "stop" : 1611730814391,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名错误, 密码错误', 'user': 'linux', 'pwd': 'linux', 'expected': {'code': 1004, 'msg': '用户名或密码错误', 'data': None}}" ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "5f2f843d240008f9",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1611730814432,
+          "stop" : 1611730814432,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_username_none[测试缺省用户名参数密码123456期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+        "uid" : "9ef5ecb29fa391a6",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814395,
+          "stop" : 1611730814395,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '缺省用户名参数', 'pwd': '123456', 'expected': {'code': 1003, 'msg': '用户名不能为空', 'data': None}}" ]
+      }, {
+        "name" : "test_with_scoped_finalizers[param_true]",
+        "uid" : "d45e3562b0bee07a",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814436,
+          "stop" : 1611730814436,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True" ]
+      }, {
+        "name" : "test_init_url",
+        "uid" : "46fc4c677ac6e3b8",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814403,
+          "stop" : 1611730814403,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录成功场景-{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}",
+        "uid" : "bbb4806883d79483",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814377,
+          "stop" : 1611730814378,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}" ]
+      }, {
+        "name" : "test_broken",
+        "uid" : "f2c1612a4071d5d9",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611730814426,
+          "stop" : 1611730814426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_failed",
+        "uid" : "26847146a8d8c386",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611730814406,
+          "stop" : 1611730814406,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_fail[测试用户名正确, 密码为空用户名:linux超密码期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+        "uid" : "d131d1411f7d78e1",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814381,
+          "stop" : 1611730814381,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名正确, 密码为空', 'user': 'linux超', 'pwd': '', 'expected': {'code': 1002, 'msg': '密码不能为空', 'data': None}}" ]
+      }, {
+        "name" : "test_login_fail[测试用户名为空, 密码正确用户名:密码linux超哥期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+        "uid" : "c92d510546109635",
+        "parentUid" : "744ae278ed9bbeb852e713ae66f2ac21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611730814385,
+          "stop" : 1611730814386,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case': '用户名为空, 密码正确', 'user': '', 'pwd': 'linux超哥', 'expected': {'code': 1003, 'msg': '用户名不能为空', 'data': None}}" ]
+      } ],
+      "uid" : "744ae278ed9bbeb852e713ae66f2ac21"
+    } ],
+    "uid" : "1632cac1ad3fada49fd73106c139208e"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'attach.png'",
+      "children" : [ {
+        "name" : "test_failed",
+        "uid" : "26847146a8d8c386",
+        "parentUid" : "0250dc1682cfe59c2836fda254daef4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611730814406,
+          "stop" : 1611730814406,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0250dc1682cfe59c2836fda254daef4c"
+    }, {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'broken.json'",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "f2c1612a4071d5d9",
+        "parentUid" : "4e8385d2dedac281752e3e90d1dd3636",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611730814426,
+          "stop" : 1611730814426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e8385d2dedac281752e3e90d1dd3636"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Ignored tests",
+    "children" : [ {
+      "name" : "Skipped: 无条件跳过",
+      "children" : [ {
+        "name" : "test_skip",
+        "uid" : "5f2f843d240008f9",
+        "parentUid" : "e911a20ce7c865b54013dee39269fa64",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1611730814432,
+          "stop" : 1611730814432,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e911a20ce7c865b54013dee39269fa64"
+    } ],
+    "uid" : "de462066317a26259da5dbde82325643"
+  } ]
+}

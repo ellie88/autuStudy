@@ -1,0 +1,181 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest_allure",
+    "children" : [ {
+      "name" : "test_allure_feature",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "登录成功场景-{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}",
+          "uid" : "bbb4806883d79483",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814377,
+            "stop" : 1611730814378,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}" ]
+        }, {
+          "name" : "test_login_fail[测试用户名正确, 密码为空用户名:linux超密码期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+          "uid" : "d131d1411f7d78e1",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814381,
+            "stop" : 1611730814381,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case': '用户名正确, 密码为空', 'user': 'linux超', 'pwd': '', 'expected': {'code': 1002, 'msg': '密码不能为空', 'data': None}}" ]
+        }, {
+          "name" : "test_login_fail[测试用户名为空, 密码正确用户名:密码linux超哥期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+          "uid" : "c92d510546109635",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814385,
+            "stop" : 1611730814386,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case': '用户名为空, 密码正确', 'user': '', 'pwd': 'linux超哥', 'expected': {'code': 1003, 'msg': '用户名不能为空', 'data': None}}" ]
+        }, {
+          "name" : "test_login_fail[测试用户名错误, 密码错误用户名:linux密码linux期望值{'code': 1004, 'msg': '用户名或密码错误', 'data': None}]",
+          "uid" : "df62f2e93fe29c8f",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814391,
+            "stop" : 1611730814391,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case': '用户名错误, 密码错误', 'user': 'linux', 'pwd': 'linux', 'expected': {'code': 1004, 'msg': '用户名或密码错误', 'data': None}}" ]
+        }, {
+          "name" : "test_username_none[测试缺省用户名参数密码123456期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+          "uid" : "9ef5ecb29fa391a6",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814395,
+            "stop" : 1611730814395,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case': '缺省用户名参数', 'pwd': '123456', 'expected': {'code': 1003, 'msg': '用户名不能为空', 'data': None}}" ]
+        }, {
+          "name" : "test_password_none[测试缺省密码参数用户名:linux超期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+          "uid" : "6d1152ed6b548a12",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814398,
+            "stop" : 1611730814399,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case': '缺省密码参数', 'user': 'linux超', 'expected': {'code': 1002, 'msg': '密码不能为空', 'data': None}}" ]
+        }, {
+          "name" : "test_init_url",
+          "uid" : "46fc4c677ac6e3b8",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814403,
+            "stop" : 1611730814403,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_failed",
+          "uid" : "26847146a8d8c386",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1611730814406,
+            "stop" : 1611730814406,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_broken",
+          "uid" : "f2c1612a4071d5d9",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1611730814426,
+            "stop" : 1611730814426,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_skip",
+          "uid" : "5f2f843d240008f9",
+          "parentUid" : "c4595d002001a9b31bf9e555f7c708f0",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1611730814432,
+            "stop" : 1611730814432,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c4595d002001a9b31bf9e555f7c708f0"
+      } ],
+      "uid" : "78151b9d9bd39c237f38a1f390111ad0"
+    }, {
+      "name" : "test_allure_fixture",
+      "children" : [ {
+        "name" : "TestClass",
+        "children" : [ {
+          "name" : "test_with_scoped_finalizers[param_true]",
+          "uid" : "d45e3562b0bee07a",
+          "parentUid" : "f7ad63a7dbb55f8b26f1b1a85fb51056",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814436,
+            "stop" : 1611730814436,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "True" ]
+        }, {
+          "name" : "test_with_scoped_finalizers[param_false]",
+          "uid" : "d2a67312101c40f4",
+          "parentUid" : "f7ad63a7dbb55f8b26f1b1a85fb51056",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611730814441,
+            "stop" : 1611730814441,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "False" ]
+        } ],
+        "uid" : "f7ad63a7dbb55f8b26f1b1a85fb51056"
+      } ],
+      "uid" : "e5355d81e012240120df7075887681c6"
+    } ],
+    "uid" : "c7178ba515c90bf255cb8297f625cfa4"
+  } ]
+}
